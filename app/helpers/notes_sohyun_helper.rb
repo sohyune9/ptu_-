@@ -1,0 +1,2 @@
+module NotesSohyunHelper
+end

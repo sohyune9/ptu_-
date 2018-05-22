@@ -1,0 +1,2 @@
+class NoteSohyun < ApplicationRecord
+end

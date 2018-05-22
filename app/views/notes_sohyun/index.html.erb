@@ -1,0 +1,14 @@
+<h1>모든 노트들의 목록 보여주기</h1>
+<form>
+<a class="btn btn-default dropdown-toggle" role="button" href="/notes_sohyun/new">새로운 데이터 만들기</a>
+</form>
+<br>
+<ul class="list-group">
+    <%= @Note.each do |note| %>
+       <li  class="list-group-item list-group-item-info">
+            <span class="glyphicon glyphicon-heart-empty" aria-hidden="true">
+                <a href="/notes_sohyun/<%=note.id%>"><%=note.title%></a>
+            </li>
+        </span>
+    <% end %>    
+</ul>

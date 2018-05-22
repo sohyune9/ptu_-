@@ -1,0 +1,5 @@
+<h1><%= @note.title %></h1>
+<p><%= @note.content %></p>
+<a href="/">목록</a>
+<a href='/notes_sohyun/<%=@note.id%>' data-confirm="삭제하시겠습니까?" data-method="delete">삭제</a>
+<a href="/notes_sohyun/<%=@note.id%>/edit">수정</a>
